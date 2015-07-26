@@ -1,0 +1,13 @@
+GEM
+  remote: https://rubygems.org/
+  specs:
+    akamai-edgegrid (1.0.4)
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  akamai-edgegrid
+
+BUNDLED WITH
+   1.10.2
