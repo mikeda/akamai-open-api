@@ -24,7 +24,7 @@ report_sources.each do |report_source|
     puts '  ' + product['name']
     measures = billing.measures(product['id'], start_date, end_date, report_source)[0]['measures']
     measures.each do |measure|
-      puts '    ' + measure.to_s
+      puts "    #{measure['name']} : #{measure['value']} #{measure['unit']}"
     end
   end
 end
